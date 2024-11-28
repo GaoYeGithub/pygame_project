@@ -358,7 +358,7 @@ async def reset_variables():
     velocity_y = 0
     game_over_y = -100
     animation_alpha = 255
-    
+
 async def draw_title_screen():
     """Displays animated title screen and gets player name"""
     global player_name
